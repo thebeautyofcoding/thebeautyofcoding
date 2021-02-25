@@ -1,0 +1,113 @@
+#projects .projects{
+    flex-direction: column;;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+
+    & .projects-header h1{
+        margin-bottom: 50px;
+    }
+
+    & .all-projects{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;;
+
+        & .project-item{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            width: 100%;
+            margin:20px auto;
+            overflow:hidden;
+            border-radius:10px;
+            box-shadow: 0 5px 10px black;
+
+        @media(max-width:1200px){
+            width:95%;
+            border-radius: 0;
+            
+        }
+        @media(max-width:768px){
+            display:flex;
+            flex-direction: column;
+        }
+     
+
+        }
+        & .project-info{
+            padding:30px;
+            flex-basis:70%;
+            height:100%;
+            display:flex;
+            align-items: flex-start;
+            flex-direction: column;;
+            color:white;
+            z-index:-10;
+           background-image: linear-gradient(to right, rgba(#000000, 0.9) 0, rgba(#dc143f, 0.9) 100%);
+
+            &
+
+            & h1{
+                font-size:4rem;
+                font-weight:500;
+
+            }
+            & h2{
+                font-size: 1.8rem;
+                font-weight:500;
+                margin-top:12px;
+            }
+            & p {
+                color:white;
+            }
+
+            
+
+
+        }
+        & .project-img{
+                flex-basis:50%;
+                height:400px;
+                z-index:4;
+               
+               
+                overflow:hidden;
+                position: relative;
+                transition: .3s ease transform;
+
+                & img {
+                    object-fit: fill;
+                }
+
+                @media(max-width:1200px){
+                height:100%;
+                flex-basis:50%;
+
+                    }
+
+                &::after{
+                    content: '';
+                    position:absolute;
+                    left:0;
+                    top:0;
+                    height:100%;
+                    width:100%;
+                  
+                    opacity: .5;
+                    z-index:5;
+
+                }
+            
+                &:hover{
+                    transform: scale(1.1);
+                    z-index: 3;
+                }
+            }
+    }
+
+
+}
+
