@@ -289,7 +289,7 @@ p {
   color: crimson; }
 
 #hero {
-  background-image: url(https://github.com/thebeautyofcoding/thebeautyofcoding/blob/master/img/japan-1792369_1920.jpg);
+  background-image: url(./../../img/japan-1792369_1920.jpg);
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -373,7 +373,7 @@ p {
     justify-content: center;
     align-items: flex-start;
     padding: 30px;
-    background-image: url(https://github.com/thebeautyofcoding/thebeautyofcoding/blob/master/img/laptop-2620118_640.jpg);
+    background-image: url(../../img/laptop-2620118_640.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -491,7 +491,6 @@ p {
       align-items: flex-start;
       flex-direction: column;
       color: white;
-      z-index: -10;
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0, rgba(220, 20, 63, 0.9) 100%); }
       #projects .projects .all-projects .project-info #projects .projects .all-projects .project-info h1 {
         font-size: 4rem;
@@ -505,7 +504,7 @@ p {
     #projects .projects .all-projects .project-img {
       flex-basis: 50%;
       height: 400px;
-      z-index: 4;
+      z-index: 10;
       overflow: hidden;
       position: relative;
       transition: .3s ease transform; }
