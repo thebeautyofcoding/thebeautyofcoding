@@ -289,7 +289,7 @@ p {
   color: crimson; }
 
 #hero {
-  background-image: url("../img/desktop.jpg");
+  background-image: url("../desktop.jpg");
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -301,7 +301,7 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: crimson;
+    background-color: black;
     opacity: .2;
     z-index: -1; }
     #hero::after .hero {
