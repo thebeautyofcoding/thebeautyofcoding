@@ -289,7 +289,7 @@ p {
   color: crimson; }
 
 #hero {
-  background-image: url(./../../img/japan-1792369_1920.jpg);
+  background-image: url("./../../img/matrix-356024_640.jpg");
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -301,8 +301,8 @@ p {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
-    opacity: .7;
+    background-color: crimson;
+    opacity: .2;
     z-index: -1; }
     #hero::after .hero {
       max-width: 1200px;
@@ -373,7 +373,7 @@ p {
     justify-content: center;
     align-items: flex-start;
     padding: 30px;
-    background-image: url(../../img/laptop-2620118_640.jpg);
+    background-image: url("./../../img/monitor-1307227_640.jpg");
     background-size: cover;
     margin: 10px 5%;
     position: relative;
@@ -393,6 +393,7 @@ p {
       height: 100%;
       width: 3px;
       background: linear-gradient(to bottom, transparent, #ad14dc);
+      opacity: .1;
       animation: animate1 1s linear infinite; }
     #skills .skills .skill-item span:nth-child(2) {
       border-radius: 10px;
@@ -420,7 +421,7 @@ p {
       left: 0;
       height: 100%;
       width: 3px;
-      background: linear-gradient(to top, transparent, #ad14dc);
+      background: linear-gradient(to top, transparent, rgba(173, 20, 220, 0.3));
       animation: animate4 1s linear infinite; }
     #skills .skills .skill-item::after {
       content: "";
@@ -491,7 +492,6 @@ p {
       align-items: flex-start;
       flex-direction: column;
       color: white;
-      z-index: -10;
       background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0, rgba(220, 20, 63, 0.9) 100%); }
       #projects .projects .all-projects .project-info #projects .projects .all-projects .project-info h1 {
         font-size: 4rem;
@@ -505,7 +505,7 @@ p {
     #projects .projects .all-projects .project-img {
       flex-basis: 50%;
       height: 400px;
-      z-index: 4;
+      z-index: 10;
       overflow: hidden;
       position: relative;
       transition: .3s ease transform; }
