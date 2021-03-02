@@ -71,8 +71,6 @@ p {
     #projects .projects .all-projects .project-item:nth-child(even) {
       flex-direction: row-reverse; }
   #projects .projects .all-projects .project-info {
-background-image: linear-gradient(to right, rgba(#000000, 0.9) 0, rgba(#dc143f, 0.6) 100%), url("../img/keyboard.jpg");
-    
     height: 100%; }
   #projects .projects .all-projects .project-img {
     height: 100%; }
@@ -303,8 +301,8 @@ background-image: linear-gradient(to right, rgba(#000000, 0.9) 0, rgba(#dc143f, 
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
-    opacity: .6;
+    background-color: crimson;
+    opacity: .2;
     z-index: -1; }
     #hero::after .hero {
       max-width: 1200px;
@@ -488,13 +486,15 @@ background-image: linear-gradient(to right, rgba(#000000, 0.9) 0, rgba(#dc143f, 
           flex-direction: column; } }
     #projects .projects .all-projects .project-info {
       padding: 30px;
-      flex-basis: 70%;
+      flex-basis: 200%;
+      object-fit: cover;
       height: 100%;
       display: flex;
       align-items: flex-start;
       flex-direction: column;
       color: white;
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0, rgba(220, 20, 63, 0.9) 100%); }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0, rgba(220, 20, 63, 0.8) 100%), url("../img/keyboard.jpg");
+      background-size: cover; }
       #projects .projects .all-projects .project-info #projects .projects .all-projects .project-info h1 {
         font-size: 4rem;
         font-weight: 500; }

@@ -39,15 +39,17 @@
         }
         & .project-info{
             padding:30px;
-            flex-basis:70%;
+            flex-basis:200%;
+            object-fit: cover;
             height:100%;
             display:flex;
             align-items: flex-start;
             flex-direction: column;;
             color:white;
+            
        
-           background-image: linear-gradient(to right, rgba(#000000, 0.9) 0, rgba(#dc143f, 0.6) 100%), url("../img/keyboard.jpg");
-
+           background-image: linear-gradient(to right, rgba(#000000, 0.8) 0, rgba(#dc143f, 0.8) 100%), url("../img/keyboard.jpg");
+            background-size: cover;
             &
 
             & h1{
@@ -80,7 +82,7 @@
                 transition: .3s ease transform;
 
                 & img {
-                    object-fit: fill;
+                    object-fit:fill;
                 }
 
                 @media(max-width:1200px){
