@@ -289,7 +289,7 @@ p {
   color: crimson; }
 
 #hero {
-  background-image: url("./../../img/matrix-356024_640.jpg");
+  background-image: url("https://github.com/thebeautyofcoding/thebeautyofcoding/blob/master/img/matrix-356024_640.jpg");
   background-size: cover;
   background-position: top center;
   position: relative;
@@ -373,7 +373,7 @@ p {
     justify-content: center;
     align-items: flex-start;
     padding: 30px;
-    background-image: url("./../../img/monitor-1307227_640.jpg");
+    background-image: url(https://github.com/thebeautyofcoding/thebeautyofcoding/blob/master/img/monitor-1307227_640.jpg);
     background-size: cover;
     margin: 10px 5%;
     position: relative;
