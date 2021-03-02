@@ -44,6 +44,7 @@
                 height:100%;
                 width: 3px;
                 background: linear-gradient(to bottom, transparent, rgb(173, 20, 220));
+                opacity:.1;
                 animation: animate1 1s linear infinite;
             }
                 & span:nth-child(2){
@@ -86,7 +87,7 @@
             align-items: flex-start;
             padding: 30px;
            
-            background-image: url(./../../img/monitor-1307227_640.jpg);
+            background-image: url("./../../img/monitor-1307227_640.jpg");
             background-size: cover;
             margin: 10px 5%;
             position:relative;
