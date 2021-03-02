@@ -75,7 +75,7 @@
                 left:0;
                 height:100%;
                 width: 3px;;
-                background: linear-gradient(to top, transparent, rgb(173, 20, 220));
+                background: linear-gradient(to top, transparent, rgba(173, 20, 220 ,.3));
                 animation: animate4 1s linear infinite;
                
             }
