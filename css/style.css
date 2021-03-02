@@ -289,7 +289,7 @@ p {
   color: crimson; }
 
 #hero {
-  background-image: url("../img/desktop.jpg");
+  background-image: url("./img/desktop.jpg");
   background-size: cover;
   background-position: top center;
   position: relative;
