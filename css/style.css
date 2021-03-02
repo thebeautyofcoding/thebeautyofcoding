@@ -302,7 +302,7 @@ p {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: .5;
+    opacity: .6;
     z-index: -1; }
     #hero::after .hero {
       max-width: 1200px;
