@@ -486,13 +486,15 @@ p {
           flex-direction: column; } }
     #projects .projects .all-projects .project-info {
       padding: 30px;
-      flex-basis: 70%;
+      flex-basis: 200%;
+      object-fit: cover;
       height: 100%;
       display: flex;
       align-items: flex-start;
       flex-direction: column;
       color: white;
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0, rgba(220, 20, 63, 0.6) 100%), url("../img/keyboard.jpg"); }
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0, rgba(220, 20, 63, 0.8) 100%), url("../img/keyboard.jpg");
+      background-size: cover; }
       #projects .projects .all-projects .project-info #projects .projects .all-projects .project-info h1 {
         font-size: 4rem;
         font-weight: 500; }
