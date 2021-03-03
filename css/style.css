@@ -581,9 +581,8 @@ p {
       flex-direction: column;
       margin: 0;
       padding: 20px;
-      width: 80%; }
+      width: 100vw; }
       #contact .contact .contact-items .contact-item {
-        margin: 30 50px;
         flex-direction: column; }
         #contact .contact .contact-items .contact-item .icon {
           width: 80px;
@@ -593,7 +592,11 @@ p {
         #contact .contact .contact-items .contact-item .contact-info {
           width: 100%;
           text-align: left;
-          padding-left: 20px; } }
+          padding-left: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center; } }
 
 #about .about {
   flex-direction: row;
