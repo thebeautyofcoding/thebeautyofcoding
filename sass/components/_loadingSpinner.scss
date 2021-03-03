@@ -9,7 +9,7 @@ position:absolute;
 top:0;
 left:0;
 
-.loadingSpinnerAndLoadingDots{
+&.loadingSpinnerAndLoadingDots{
 display:flex;
 opacity:1;
 flex-direction: column;
