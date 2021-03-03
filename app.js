@@ -6,7 +6,15 @@ const header = document.querySelector('.header.container')
 
 const menu_item= document.querySelectorAll('.header .nav-bar .nav-list ul li a')
 
+const wrapper = document.getElementsByClassName('wrapper')[0]
+const wrapperMain = document.getElementsByClassName('wrapperMain')[0]
 
+const loadingSpinnerAndLoadingDots = document.getElementsByClassName('loadingSpinnerAndLoadingDots')[0]
+window.addEventListener("load", function() {
+   
+ wrapperMain.style.setProperty("opacity", "1")
+    wrapper.style.setProperty("display", "none")
+})
 hamburger.addEventListener('click', () => {
     console.log('NICE')
     hamburger.classList.toggle('active');
