@@ -11,8 +11,8 @@ const wrapperMain = document.getElementsByClassName('wrapperMain')[0]
 
 
 window.addEventListener("load", function () {
-    loadingSpinnerAndLoadingDots.style.setProperty("display", "none")
-    loadingSpinnerAndLoadingDots.style.setProperty("visibility", "hidden")
+    loadingSpinnerAndLoadingDots.style.setProperty("opacity", "0")
+
     wrapperMain.style.setProperty("opacity", "1")
 
 })
