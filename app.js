@@ -13,7 +13,9 @@ const wrapperMain = document.getElementsByClassName('wrapperMain')[0]
 window.addEventListener("load", function () {
     loadingSpinnerAndLoadingDots.style.setProperty("display", "none")
     loadingSpinnerAndLoadingDots.style.setProperty("visibility", "hidden")
-    wrapperMain.style.setProperty("opacity", "1")
+    wrapperMain.style.setProperty("display", "block")
+    wrapperMain.style.setProperty("visibility", "visble")
+  
 
 })
 hamburger.addEventListener('click', () => {
