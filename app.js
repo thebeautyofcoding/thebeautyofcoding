@@ -16,7 +16,7 @@ window.addEventListener("load", function() {
     wrapper.style.setProperty("display", "none")
 })
 hamburger.addEventListener('click', () => {
-    console.log('NICE')
+   
     hamburger.classList.toggle('active');
     mobile_menu.classList.toggle('active');
 })
