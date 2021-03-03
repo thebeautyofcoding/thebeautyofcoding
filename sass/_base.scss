@@ -65,7 +65,8 @@ p {
 
 .wrapperMain{
     opacity:0;
-   
+    transition-duration: .5s;
+    transition-property: opacity;   
 
    
 }
