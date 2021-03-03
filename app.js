@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
     loadingSpinnerAndLoadingDots.style.setProperty("display", "none")
     loadingSpinnerAndLoadingDots.style.setProperty("visibility", "hidden")
     wrapperMain.style.setProperty("display", "block")
-    wrapperMain.style.setProperty("visibility", "visble")
+    wrapperMain.style.setProperty("visibility", "visible")
 
 
 })
