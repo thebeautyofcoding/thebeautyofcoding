@@ -6,12 +6,12 @@ const header = document.querySelector('.header.container')
 
 const menu_item= document.querySelectorAll('.header .nav-bar .nav-list ul li a')
 
-const wrapper = document.getElementsByClassName('wrapper')[0]
+const loadingSpinnerAndLoadingDots = document.getElementsByClassName('loadingSpinnerAndLoadingDots')[0]
 const wrapperMain = document.getElementsByClassName('wrapperMain')[0]
 
 const loadingSpinnerAndLoadingDots = document.getElementsByClassName('loadingSpinnerAndLoadingDots')[0]
 window.addEventListener("load", function() {
-    wrapper.style.setProperty("display", "none", "visibility", "hidden")
+    loadingSpinnerAndLoadingDots.style.setProperty("display", "none", "visibility", "hidden")
  wrapperMain.style.setProperty("opacity", "1")
    
 })
