@@ -9,7 +9,7 @@ const menu_item= document.querySelectorAll('.header .nav-bar .nav-list ul li a')
 const loadingSpinnerAndLoadingDots = document.getElementsByClassName('loadingSpinnerAndLoadingDots')[0]
 const wrapperMain = document.getElementsByClassName('wrapperMain')[0]
 
-const loadingSpinnerAndLoadingDots = document.getElementsByClassName('loadingSpinnerAndLoadingDots')[0]
+
 window.addEventListener("load", function() {
     loadingSpinnerAndLoadingDots.style.setProperty("display", "none")
     loadingSpinnerAndLoadingDots.style.setProperty("visibility", "hidden")
