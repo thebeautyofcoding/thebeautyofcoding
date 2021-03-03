@@ -11,9 +11,9 @@ const wrapperMain = document.getElementsByClassName('wrapperMain')[0]
 
 const loadingSpinnerAndLoadingDots = document.getElementsByClassName('loadingSpinnerAndLoadingDots')[0]
 window.addEventListener("load", function() {
-   
- wrapperMain.style.setProperty("opacity", "1")
     wrapper.style.setProperty("display", "none")
+ wrapperMain.style.setProperty("opacity", "1")
+   
 })
 hamburger.addEventListener('click', () => {
    
