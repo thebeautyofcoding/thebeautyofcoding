@@ -15,8 +15,6 @@ window.addEventListener("load", function () {
     loadingSpinnerAndLoadingDots.style.setProperty("visibility", "hidden")
     wrapperMain.style.setProperty("opacity", "1")
 
-
-
 })
 hamburger.addEventListener('click', () => {
 
