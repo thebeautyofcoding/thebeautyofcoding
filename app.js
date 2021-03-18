@@ -16,13 +16,18 @@ window.addEventListener("load", function () {
     wrapperMain.style.setProperty("opacity", "1")
 
 })
-hamburger.addEventListener('click', () => {
 
-    hamburger.classList.toggle('active');
-    mobile_menu.classList.toggle('active');
-})
 
-document.addEventListener('scroll', () => {
+if (hamburger.addEventListener) {
+    hamburger.addEventListener("click", function() {
+
+        hamburger.classList.toggle('active');
+        mobile_menu.classList.toggle('active');
+    })
+
+} 
+
+document.addEventListener('scroll', function() {
     var scroll_position = window.scrollY
     if (scroll_position > 250) {
         header.style.backgroundColor = "#29323c"
@@ -32,11 +37,13 @@ document.addEventListener('scroll', () => {
     }
 })
 
-menu_item.forEach(item => {
+menu_item.forEach(function(item) {
 
-
-    item.addEventListener('click', () => {
+    if (item.addEventListener) {
+        item.addEventListener('click', function() {
         hamburger.classList.toggle('active');
         mobile_menu.classList.toggle('active');
     })
+    } 
+
 })

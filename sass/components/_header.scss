@@ -11,6 +11,12 @@
         background-color: rgba(31,30,30, 0.20);
         transition: .5s ease background-color;
 
+        & .brand h1{
+display:flex;
+white-space: normal;
+white-space: nowrap;
+        }
+
         & .nav-bar{
             display:flex;
             align-items: center;
@@ -19,6 +25,20 @@
             height:100%;
             max-width:1300px;
             padding:0 10px;
+
+
+        & .nav-list{
+            display:flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+           
+           & li{
+                margin-left:25px;
+            margin-right: 25px;;
+           }
+            
+
+        }
 
             & .nav-list .hamburger{
 
@@ -87,7 +107,7 @@
                 }
             }
 
-            & ul{
+            & .nav-ul{
                 list-style: none;
                 position:absolute;
                 background-color:  rgb(31,30,30);
@@ -97,7 +117,8 @@
                 top:0;
                 display:flex;
                 flex-direction: column;
-                justify-content: center;
+                justify-content: space-between;
+               
                 align-items: center;
                 z-index: 1;
                 overflow-x: hidden;
