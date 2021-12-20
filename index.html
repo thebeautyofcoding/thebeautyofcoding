@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="loadingSpinnerAndLoadingDots">
+        <div class="loadingSpinner"></div>
+        <div class="loadingDots">
+          <div class="bouncingDot1"></div>
+          <div class="bouncingDot2"></div>
+          <div class="bouncingDot3"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapperMain">
+      <section id="header">
+        <div class="header container">
+          <div class="nav-bar">
+            <div class="brand">
+              <a href="#hero"
+                ><h1>
+                  <div></div>
+                  He<span class="red">i</span>ner G<span class="red">i</span>ehl
+                </h1></a
+              >
+            </div>
+            <div class="nav-list">
+              <div class="hamburger"><div class="bar"></div></div>
+              <ul class="nav-ul">
+                <li><a href="#hero" data-after="Home">Home</a></li>
+                <li><a href="#skills" data-after="Skills">Skills</a></li>
+                <li><a href="#projects" data-after="Projects">Projects</a></li>
+                <li><a href="#about" data-after="About">About</a></li>
+                <li><a href="#contact" data-after="Contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="hero">
+        <div class="hero container">
+          <h1>Hello, ... <span></span></h1>
+          <h1>my name is ... <span></span></h1>
+          <h1>Heiner <span></span></h1>
+          <div class="button-container">
+            <div class="snake-border">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <a href="#projects" type="button" class="cta">Portfolio</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="skills container">
+          <div class="skill-top">
+            <h1 class="section-title">Skills</h1>
+            <p>How can i help you? I am a JavaScript-Fullstack-Developer.</p>
+          </div>
+          <div class="skill-bottom">
+            <div class="skill-item">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <div class="item-container">
+                <div class="icon">
+                  <img src="./img/bootstrap.svg" />
+                </div>
+                <div class="icon">
+                  <img src="./img/tailwindcss-icon.svg" />
+                </div>
+              </div>
+              <h2>Web Design</h2>
+              <p>
+                I love to use modern CSS-Frameworks, such as TailwindCSS or
+                BootstrapCSS. I follow mobile first approach and focus on
+                responsive layouts. On top of that, I like to dabble in some
+                advanced CSS-Features, such as keyframe animations
+              </p>
+            </div>
+            <div class="skill-item">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <div class="item-container">
+                <div class="icon">
+                  <img
+                    src="https://img.icons8.com/color/96/000000/react-native.png"
+                  />
+                </div>
+                <div class="icon">
+                  <img src="./img/vue.svg" />
+                </div>
+              </div>
+              <h2>Frontend-Development</h2>
+              <p>
+                I love to work with frontend frameworks, such as VueJS and
+                ReactJS. I love how comfortable it is to manage state and build
+                great SinglePage-Appliations. I am also familar with jQuery, but
+                I do not use it that often anymore
+              </p>
+            </div>
+            <div class="skill-item">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <div class="item-container">
+                <div class="icon">
+                  <img
+                    src="https://img.icons8.com/color/96/000000/nodejs.png"
+                  />
+                </div>
+                <div class="icon">
+                  <img src="./img/laravel.svg" />
+                </div>
+                <div class="icon">
+                  <img src="./img/flask.svg" style="height: 100%" />
+                </div>
+              </div>
+              <h2>Backend-Development</h2>
+              <p>
+                I am primarly focus on REST-APis. My main technologies are
+                NodeJS / NestJS, Laravel and Python Flask. They are favourite
+                ones.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="projects container">
+          <div class="projects-header">
+            <h1 class="section-title">Recent Projects</h1>
+          </div>
+          <div class="all-projects">
+            <div class="project-item">
+              <div class="project-info">
+                <h1>Project 1</h1>
+                <h2>Fullstack MERN/NEXT- Blogging-Platform</h2>
+                <p>
+                  A CRUD-Blogging-Platform where users can signup, signin and
+                  create, read, update and delete their blog posts. Furthermore,
+                  search and email message functionality was implemented. For
+                  the Backend NodeJS, Mongoose, MongoDB were, and for the
+                  Frontend ReactJS was used. To optimize the blogging platform
+                  for SEO, NextJs was implemented.
+                </p>
+              </div>
+              <a href="https://writingislove.net">
+                <div class="project-img">
+                  <img src="./img/blog.png" alt="" />
+                </div>
+              </a>
+            </div>
+            <div class="project-item">
+              <div class="project-info">
+                <h1>Project 2</h1>
+                <h2>SocialMedia-Clone</h2>
+                <p>
+                  Users can create, like, comment and retweet post, and follow
+                  each other, once they have been logged in. Also, users can
+                  create their own chat room in communicate in real time.
+                </p>
+              </div>
+              <a href="https://elastic-pike-81f160.netlify.app/">
+                <div class="project-img">
+                  <img src="./img/social.png" alt="" />
+                </div>
+              </a>
+            </div>
+            <!-- <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 2</h1>
+                        <h2>Coding is Love</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus magnam praesentium quam? Tempore pariatur nobis ipsam magni? Perspiciatis veritatis, exercitationem tempore, totam facere, quia corporis laborum adipisci repellat omnis cupiditate?</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="/img/flower-5768092_1920.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 3</h1>
+                        <h2>Coding is Love</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus magnam praesentium quam? Tempore pariatur nobis ipsam magni? Perspiciatis veritatis, exercitationem tempore, totam facere, quia corporis laborum adipisci repellat omnis cupiditate?</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="/img/flower-5768092_1920.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 4</h1>
+                        <h2>Coding is Love</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus magnam praesentium quam? Tempore pariatur nobis ipsam magni? Perspiciatis veritatis, exercitationem tempore, totam facere, quia corporis laborum adipisci repellat omnis cupiditate?</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="/img/flower-5768092_1920.jpg" alt=""/>
+                    </div>
+                </div> -->
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about container">
+          <div class="col-left">
+            <div class="about-img">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <img src="./img/profile.jpg" />
+            </div>
+          </div>
+          <div class="col-right">
+            <h1 class="section-title">About</h1>
+            <h2>Highly-passionated Fullstack-Web-Developer</h2>
+            <p>
+              As someone who loves understanding complex concepts and has a
+              scientific background(B.Sc Chemical Biology, TU Dortmund), it was
+              just a matter of time to find out how much I love programming. The
+              process of using creativity and logical thinking to build complex,
+              functional and beautiful web-applications is what I enjoy!
+            </p>
+            <div class="button-container">
+              <div class="snake-border">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <a
+                  href="./pdf/resume.html"
+                  type="application/pdf"
+                  target="_blank"
+                  class="cta"
+                  >Download Resume</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact container">
+          <div><h1 class="section-title">Contact Info</h1></div>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="icon">
+                <img
+                  src="https://img.icons8.com/bubbles/100/000000/phone.png"
+                />
+              </div>
+              <div class="contact-info">
+                <h1>Phone</h1>
+                <h2>mobile: +49159/01645957</h2>
+                <h2></h2>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon">
+                <img
+                  src="https://img.icons8.com/bubbles/100/000000/apple-mail.png"
+                />
+              </div>
+              <div class="contact-info">
+                <h1>Email</h1>
+                <h2>contact-me@heiner.tech</h2>
+                <h2></h2>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="icon">
+                <img
+                  src="https://img.icons8.com/bubbles/100/000000/worldwide-location.png"
+                />
+              </div>
+              <div class="contact-info">
+                <h1>Address</h1>
+                <h2>Heiner Giehl</h2>
+                <h2>Siemensstraße 15</h2>
+                <h2>44147 Dortmund</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="footer">
+        <div class="footer container">
+          <div class="brand">
+            <h1>
+              He<span class="red">i</span>ner G<span class="red">i</span>ehl
+            </h1>
+          </div>
+          <h2>Your Complete Web Solution</h2>
+          <div class="social-icon">
+            <div class="social-item">
+              <a href="#"
+                ><img
+                  src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
+              /></a>
+            </div>
+            <!-- <div class="social-item">
+                    <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/youtube.png"/></a>
+                </div> -->
+          </div>
+          <p>&copy; 2021 heiner.tech. All rights reserved</p>
+        </div>
+      </section>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

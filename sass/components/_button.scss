@@ -1,0 +1,112 @@
+
+.button-container{
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+.snake-border{
+    
+    position:relative;
+    overflow: hidden;
+    display:flex;
+    
+
+    
+  
+    
+    & span{
+        
+        transition: .5s;
+        opacity: 0;
+    }
+
+    &:hover span{
+        opacity: 1;
+       
+    }
+
+    & span:nth-child(1){
+            
+                position:absolute;
+                top:0;
+                right:0;
+                height:100%;
+                width: 3px;
+                background: linear-gradient(to bottom, transparent, rgb(173, 20, 220));
+                animation: animate1 1s linear infinite;
+    }
+
+    & span:nth-child(2){
+                    border-radius: 10px;
+                position:absolute;
+                top:0;
+                right:0;
+                height:3px;
+                width: 100%;
+                background: linear-gradient(to bottom, transparent, crimson);
+                animation: animate2 1s linear infinite;
+    }
+
+    & span:nth-child(3){
+                border-radius: 10px;
+                position:absolute;
+                bottom:0;;
+                left:0;
+                height:3px;
+                width: 100%;
+                background: linear-gradient(to left, transparent, crimson);
+                animation: animate3 1s linear infinite;
+                animation-delay: 1s;
+            }
+
+            & span:nth-child(4){
+                border-radius: 10px;
+                position:absolute;
+                top:0;;
+                left:0;
+                height:100%;
+                width: 3px;;
+                background: linear-gradient(to top, transparent, rgb(173, 20, 220));
+                animation: animate4 1s linear infinite;
+               
+            }
+ .cta{
+
+
+     &:hover{
+          border:none;
+        
+     }
+   
+        display:inline-block;
+        padding:10px 30px;
+        color:white;
+        background-color: transparent;
+        border:3px solid crimson;
+        
+        font-size:2rem;
+        text-transform:uppercase;
+        
+        transition: .4s ease;
+        transition-property: background-color, color;
+
+
+
+
+        &:hover{
+            color:white;
+           
+        }
+
+
+        @media only screen and(min-width:768px){
+            font-size:2.5rem;
+          
+         
+     
+        }
+
+    }
+}
+
+}

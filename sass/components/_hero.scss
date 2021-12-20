@@ -1,0 +1,97 @@
+#hero{
+    background-image: url("../img/desktop.jpg");
+    background-size:cover;
+    background-position:top center;
+    position:relative;
+    z-index: 1;
+  
+    &::after{
+        content:"";
+        position:absolute;
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        background-color: black;
+        opacity:.6;
+        z-index:-1;
+
+        & .hero{
+            max-width:1200px;
+            margin:0 auto;
+            padding: 0 50px;
+            justify-content: flex-start;
+        }
+    }
+
+    & h1{
+        display:block;
+        width:fit-content;
+        font-size: 4rem;
+        position:relative;
+        color:transparent;
+        animation:text_reveal .5s ease forwards;
+        animation-delay:1.5s;
+        flex-direction: row;
+
+
+
+
+
+        &:nth-child(1){
+            animation-delay: 1.5s;
+
+        }
+        &:nth-child(2){
+            animation-delay: 2.5s;
+            
+        }
+        &:nth-child(3){
+            animation-delay: 3.5s;
+            
+        }
+        &:nth-child(1) span{
+            animation-delay: 1s;
+        }
+        &:nth-child(2) span{
+            animation-delay: 2s;
+        }
+        &:nth-child(3) span{
+            animation-delay: 3s;
+        }
+
+
+        span{
+            position:absolute;
+            top:0;
+            left:0;
+            height:100%;
+            width:0%;
+            background-color: crimson;
+            animation: text_reveal_box 1s ease;
+            animation-delay: 1s;
+        }
+    }
+    
+
+}
+
+@keyframes text_reveal_box{
+    50%{
+        width:100%;
+        left:0%;
+
+
+    }
+    100%{
+        width:0;
+        left:101%;
+    }
+}
+
+@keyframes text_reveal{
+    100%{
+        color:white;
+    }
+}
+

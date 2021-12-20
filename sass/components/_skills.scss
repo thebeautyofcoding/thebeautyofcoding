@@ -1,0 +1,156 @@
+#skills{
+
+
+    & .skills{
+
+        @media (min-width: 768px){
+            h1{
+                font-size: 7rem;;
+            }
+        }          
+        flex-direction: column;
+        text-align:center;
+        max-width:1200px;
+        margin:0 auto;
+        padding: 100px 0;
+
+      
+        & .skill-bottom{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            flex-wrap: wrap;
+            margin-top:50px;
+            
+         
+        }
+        & .skill-item{
+           
+            width:100%;
+
+           
+         & .item-container{
+             display:flex;
+             flex-wrap:wrap;
+             justify-content:space-around;
+             width:100%;
+             
+            
+
+         }
+
+            & span {
+                transition: .5s;
+                opacity:0;
+
+          
+
+            }
+            &:hover span{
+                opacity:1;
+            }
+            & span:nth-child(1){
+                border-radius: 10px;
+                position:absolute;
+                top:0;
+                right:0;
+                height:100%;
+                width: 3px;
+                background: linear-gradient(to bottom, transparent, rgb(173, 20, 220));
+                opacity:.1;
+                animation: animate1 1s linear infinite;
+            }
+                & span:nth-child(2){
+                    border-radius: 10px;
+                position:absolute;
+                top:0;
+                right:0;
+                height:3px;
+                width: 100%;
+                background: linear-gradient(to bottom, transparent, crimson);
+                animation: animate2 1s linear infinite;
+            
+            }
+            & span:nth-child(3){
+                border-radius: 10px;
+                position:absolute;
+                bottom:0;;
+                left:0;
+                height:3px;
+                width: 100%;
+                background: linear-gradient(to left, transparent, crimson);
+                animation: animate3 1s linear infinite;
+                animation-delay: 1s;
+            }
+            & span:nth-child(4){
+                border-radius: 10px;
+                position:absolute;
+                top:0;;
+                left:0;
+                height:100%;
+                width: 3px;;
+                background: linear-gradient(to top, transparent, rgba(173, 20, 220 ,.3));
+                animation: animate4 1s linear infinite;
+               
+            }
+            flex-basis:80%;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 30px;
+           
+            background-image: url("../img/apple.jpg");
+            background-size: cover;
+            margin: 10px 5%;
+            position:relative;
+            z-index:3;
+            overflow:hidden;
+            box-shadow: 0 5px 10px black;
+
+
+            &::after{
+                content:"";
+                position:absolute;
+                left:0;
+                top:0;
+                height:100%;
+                width:100%;
+                background-image: linear-gradient(to right, rgba(#000000, 0.9) 0, rgba(#dc143f, 0.9) 100%);
+                opacity:.9;
+                z-index: -1;
+
+            }
+
+            & h2{
+                font-size: 2rem;
+                color:white;;
+                margin-bottom:10px;
+                text-transform: uppercase;
+            }
+
+            & p{
+                color:white;
+                text-align:left;
+                font-size:1.4rem;
+                line-height:1.9rem;
+            }
+            & .icon{
+                
+                border: 2px solid white;
+                padding: 1rem;
+                background-color: white;
+                border-radius: 50%;;
+                box-shadow: 0 2px 4px black;
+                height:80px;
+                width:80px;
+                margin-bottom: 20px;
+                margin-top:20px;
+              
+
+
+            }
+            }
+
+        }
+    }

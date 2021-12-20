@@ -1,0 +1,55 @@
+@keyframes hamburger_puls{
+    0%{
+        opacity: 1;
+        transform:scale(1)
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1.4);
+    }
+}
+
+
+@keyframes animate1
+{
+    0%{
+        transform: translateY(-100%)
+    }
+
+    100%{
+        transform: translateY(100%)
+    }
+}
+
+@keyframes animate2
+{
+    0%{
+        transform: translateX(-100%)
+    }
+
+    100%{
+        transform: translateX(100%)
+    }
+}
+
+@keyframes animate3
+{
+    0%{
+        transform: translateX(100%)
+    }
+
+    100%{
+        transform: translateX(-100%)
+    }
+}
+
+@keyframes animate4
+{
+    0%{
+        transform: translateY(100%)
+    }
+
+    100%{
+        transform: translateY(-100%)
+    }
+}

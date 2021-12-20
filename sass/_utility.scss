@@ -1,0 +1,121 @@
+
+
+
+.brand h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color:white;
+
+}
+
+@media only screen and (min-width: 768px){
+    #hero .hero h1{
+        font-size: 7rem;
+    }
+
+    #skills .skills .skill-bottom .skill-item{
+        flex-basis: 45%;
+        margin:1.5%;
+        height:360px;
+            width:auto;
+    }
+
+    #projects .projects .all-projects .project-item{
+        height:400px;
+        margin:0;
+        width:100%;
+        border-radius:0;
+        
+        flex-direction: row;
+
+        &:nth-child(even){
+            flex-direction: row-reverse;
+        }
+
+    }
+    #projects  .projects .all-projects .project-info{
+        height:100%;
+    }
+    #projects .projects  .all-projects .project-img{
+        height:100%;
+    }
+
+   
+
+        & .col-left{
+            width:600px;
+            height:400px;
+            padding-left:60px;
+
+            & .about-img::after{
+                top:34px;
+               
+                height:98%;
+
+            }
+            
+
+        }
+
+        }
+
+        
+    
+    @media only screen and (min-width: 1200px){
+        #skills .skills .skill-bottom .skill-item{
+            flex-basis: 22%;
+            margin:1.5%;
+            height:580px;
+            width:auto;
+        }
+
+
+
+
+        #header .header .nav-bar .nav-list .hamburger{
+            display:none!important;
+        }
+
+        #header .header .nav-bar{
+            display:flex;
+            width:fit-content;
+            justify-content: center;
+           
+          
+       
+        }
+        #header .header .nav-bar .nav-list ul{
+            position:initial!important;
+            display:flex;
+            height:auto;
+            width: fit-content;
+            background-color: transparent;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+            
+            
+            
+
+      
+
+            
+            & li {
+                display:inline-block;
+
+                & a{
+                    font-size: 2rem;;
+
+                    &::after{
+                display:none;
+                visibility: hidden;
+            }
+                }
+            }
+        }
+
+        #projects .projects .all-projects .project-item{
+            display:flex;
+
+        }
+    }
